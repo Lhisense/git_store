@@ -22,9 +22,14 @@ dist/
 build/
 coverage/
 .cache/
+*.spec.tmp
 
 # Python caches and virtual environments
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Packaged app artifacts and local data
+*.exe
+*.db
